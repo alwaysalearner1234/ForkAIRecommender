@@ -1,0 +1,82 @@
+🍴 AI Recommender – Restaurant & Recipe Website
+📌 Project Overview
+
+This project is an AI-powered recommendation system that suggests nearby restaurants and personalized recipes based on user preferences.
+The goal is to make food discovery easier by combining restaurant search with AI recipe recommendations in a single platform.
+
+🚀 Features
+
+🔍 Restaurant Finder – Search and explore restaurants by location, cuisine, or rating.
+
+🤖 AI Recommender – Personalized suggestions based on user taste and history.
+
+🍲 Recipe Recommender – Discover recipes using available ingredients or diet preferences.
+
+⭐ Favorites – Save favorite restaurants or recipes.
+
+📱 Responsive UI – Works on desktop and mobile.
+
+🛠️ Tech Stack
+
+Frontend: React / HTML / CSS / JavaScript
+
+Backend: Flask / Django / Node.js (your choice)
+
+Database: MySQL / MongoDB / PostgreSQL
+
+AI/ML: Python (scikit-learn, TensorFlow, or PyTorch for recommendation)
+
+APIs: Google Places / Zomato API / Recipe API (like Spoonacular)
+
+📂 Project Structure
+ai-recommender/
+│── frontend/         # Website frontend code  
+│── backend/          # Backend + AI recommender system  
+│── data/             # Datasets (restaurants, recipes)  
+│── models/           # Trained recommendation models  
+│── README.md         # Project documentation  
+
+⚙️ Installation & Setup
+
+Clone this repository:
+
+git clone https://github.com/alwaysalearner1234/ai-recommender.git
+cd ai-recommender
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Start the backend server:
+
+python app.py
+
+
+Run the frontend:
+
+npm start
+
+
+Open in browser:
+
+http://localhost:3000
+
+📊 Recommendation Algorithm
+
+Uses content-based filtering (ingredients, cuisine type).
+
+Uses collaborative filtering (similar user preferences).
+
+Hybrid model for better accuracy.
+
+
+🤝 Contribution
+
+Pull requests are welcome! For major changes, please open an issue first.
+
+📜 License
+
+MIT License – Free to use and modify.
+
